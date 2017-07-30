@@ -1,5 +1,6 @@
 // Copyright 2017 P. Nivatyakul kaebmoo@gmail.com 
 // 7/7/2017 
+// Arduino Nano
 
 int ldrPin = A0;
 int LDR = 6;
@@ -48,6 +49,7 @@ void loop() {
     delay(500);
   }
 
+/*
   Serial.print("Config PIR = ");
   Serial.println(config_pir);
   Serial.println(sensorValue, DEC);
@@ -55,4 +57,5 @@ void loop() {
   Serial.println(light, DEC);
   Serial.print("Motion = ");
   Serial.println(detect, DEC);
+*/
 }
